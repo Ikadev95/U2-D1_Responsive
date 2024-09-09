@@ -196,3 +196,45 @@ footer {
 footer a {
     color: fuchsia;
 }
+
+@media screen and (min-width: 768px) {
+
+    table {
+        width: 500px;
+    }
+    input{
+        padding-right: 60%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    table{
+        width: 700px;
+    }
+    header div{
+        display: flex;
+        width: fit-content;
+        align-items: center;
+    };
+    nav, ul {
+        display: flex;
+        width: fit-content;
+    }
+    header{
+        display: flex;
+        padding-block: 12px ;
+        justify-content: space-between;
+        padding-inline: 18px;
+    }
+    header div img{
+        margin-bottom: 0;
+        padding-right: 14px;
+    }
+    header p{
+        margin: 0;
+    }
+    nav{
+        align-self: center;
+    }
+
+}
