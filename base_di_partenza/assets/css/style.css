@@ -200,7 +200,7 @@ footer a {
 @media screen and (min-width: 768px) {
 
     table {
-        width: 500px;
+        width: 40%;
     }
     input{
         padding-right: 60%;
@@ -237,15 +237,17 @@ footer a {
         align-self: center;
     }
     iframe{
-        width: 48%;
+        width: 50%;
         display: inline-block;
         height: 165px;
     }
     section{
-        width: 48%;
+        width: 50%;
         display: inline-block;
         vertical-align: top;
         border-radius: 20px;
+        margin-left: -4px;
+        height: 166px;
     }
     input{
         padding-right: 40%;
