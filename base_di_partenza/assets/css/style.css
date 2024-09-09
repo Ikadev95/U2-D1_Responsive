@@ -236,5 +236,23 @@ footer a {
     nav{
         align-self: center;
     }
+    iframe{
+        width: 48%;
+        display: inline-block;
+        height: 165px;
+    }
+    section{
+        width: 48%;
+        display: inline-block;
+        vertical-align: top;
+        border-radius: 20px;
+    }
+    input{
+        padding-right: 40%;
+    }
+    aside div{
+        display: inline-block;
+        width: 33%;
+    }
 
 }
